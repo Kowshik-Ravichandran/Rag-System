@@ -1,0 +1,23 @@
+# Local RAG System - Dependencies
+# All open-source, no paid APIs required
+
+# Web interface
+streamlit>=1.30.0
+
+# PDF processing
+PyMuPDF>=1.23.0        # Fast PDF text extraction (fitz)
+
+# Embeddings
+sentence-transformers>=2.2.0
+
+# Vector database
+faiss-cpu>=1.7.4       # CPU version for Apple Silicon compatibility
+
+# LLM interaction (Ollama)
+requests>=2.31.0       # For Ollama REST API calls
+
+# Text processing
+tiktoken>=0.5.0        # Token counting for chunk size experiments
+
+# Utilities
+numpy>=1.24.0
